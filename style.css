@@ -29,9 +29,10 @@ body {
 }
 
 .greeting {
-    padding: 10px;
+    padding-bottom: 0;
     h1 {
         font-size: 80px;
+        margin: 0;
         color: rgb(0, 0, 0);
     }
 }
