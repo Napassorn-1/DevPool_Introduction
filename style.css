@@ -1,7 +1,7 @@
 body {
     background-color: rgb(220, 229, 207);
     font-family: 'Prompt', sans-serif;
-    padding:0cqb;
+    padding: 10px;
     }
 
 .container{
@@ -14,7 +14,7 @@ body {
 
 .profile {
     background-color: rgb(254, 255, 255);
-    padding: 30px;
+    padding: 10px;
     border-radius: 25px;
     img {
         width: 250px;
@@ -25,10 +25,11 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .greeting {
-    padding: 20px;
+    padding: 10px;
     h1 {
         font-size: 80px;
         color: rgb(0, 0, 0);
@@ -37,10 +38,22 @@ body {
 
 .personal {
     background-color: rgb(254, 255, 255);
-    padding: 30px;
+    padding: 10px;
     border-radius: 25px;
     img {
         width: 250px;
         border-radius: 50%;
     }
+}
+
+.work {
+    background-color: rgb(254, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.reason {
+    background-color: rgb(254, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
 }
