@@ -22,8 +22,13 @@ body {
     }
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .greeting {
-    padding: 30px;
+    padding: 20px;
     h1 {
         font-size: 80px;
         color: rgb(0, 0, 0);
