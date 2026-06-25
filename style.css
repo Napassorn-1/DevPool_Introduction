@@ -19,6 +19,8 @@ body {
     img {
         width: 250px;
         border-radius: 50%;
+        display:block;
+        margin: auto;
     }
 }
 
