@@ -8,6 +8,14 @@ body {
     .greeting{color: antiquewhite;}
 }
 
+.quote{
+    grid-column: 1/3;
+    font-size: 14px;
+    font-style: italic;
+    color:rgb(169, 164, 97);
+    text-align: center;
+}
+
 .container{
     width:1000px;
     margin:auto;
