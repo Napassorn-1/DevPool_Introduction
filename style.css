@@ -40,6 +40,10 @@ body {
     }
 }
 
+button{
+        font-family: 'Prompt', sans-serif;
+}
+
 .greeting {
     grid-column: 1/3;
     font-size: 40px;
@@ -50,7 +54,6 @@ body {
 
 .content {
     display:grid;
-    grid-template-rows:auto auto;
     gap:20px;
 }
 
